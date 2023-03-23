@@ -6,6 +6,11 @@
     --primary-color: #0f1b4c;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -52,9 +57,9 @@ a {
 .hero-wrap {
     position: relative;
     flex-direction: column;
-    background: #e6f0ff;
-    height: 100vh;
     display: flex;
+    background: #e6f0ff;
+  height: calc(100vh - 80px);
 }
 .fixed-header {
     background: #e6f0ff;
