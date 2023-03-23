@@ -58,6 +58,7 @@ a {
     position: relative;
     flex-direction: column;
     display: flex;
+    justify-content: center;
     background: #e6f0ff;
   height: calc(100vh - 80px);
 }
@@ -111,9 +112,6 @@ a {
 }
 
 /* herro */
-.hero {
-    margin-top: 140px;
-}
 
 .hero .info {
     width: 51%;
@@ -667,9 +665,3 @@ a {
     color: #C2C2C2;
 }
 
-.favicon{
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    object-fit: cover;  
-}
