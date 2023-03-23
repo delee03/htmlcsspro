@@ -632,6 +632,10 @@ a {
     border-radius: 4px;
 }
 
+.footer .social-link + .social-link {
+    margin-left: 16px;
+}
+
 .footer .social-link:hover{
     background: #524e4e;
 }
